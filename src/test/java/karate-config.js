@@ -12,7 +12,7 @@ function fn() {
 
     var File = Java.type('java.io.File');
     var Scanner = Java.type('java.util.Scanner');
-    var file = new File('.env'); // если лежит в src/test/resources, используй просто '.env'
+    var file = new File('.env');
     var envVars = {};
     if (file.exists()) {
         var scanner = new Scanner(file);

@@ -5,7 +5,7 @@
 
 ## Endpoints
 
-| Endpoint                  | Method | Description                   |
+|       Endpoint            | Method |          Description          |
 |---------------------------|--------|-------------------------------|
 | `/auth/login`             | POST   | Login user                    |
 | `/auth/me`                | GET    | Get profile information       |

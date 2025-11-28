@@ -1,5 +1,17 @@
 <h2>Demo API Testing Project using Karate</h2>
 
+## 🚀 Tech Stack
+
+| Layer                   | Technology               |
+|-------------------------|--------------------------|
+| Test Runner             | JUnit 5 / Karate Runner  |
+| API Testing Framework   | **Karate DSL**           |
+| Configuration           | Karate `karate-config.js`|
+| Build Tool              | Maven                    |
+| Environment Management  | `.env` + Karate Variables|
+| Reporting               | Karate HTML Reports      |
+| Language                | **Karate DSL (on JVM)**  |
+
 #### Base URL
 `https://dummyjson.com/`
 

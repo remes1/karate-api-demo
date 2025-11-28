@@ -41,3 +41,9 @@ PASSWORD=emilyspass
 ```
 ### Running from cli
 ```mvn clean test -Dkarate.env=qa -Dkarate.options="--tags @regression"```
+
+## 📄 Test Reports
+
+After running the tests, an HTML report is generated at:
+
+```target/karate-reports/karate-summary.html```

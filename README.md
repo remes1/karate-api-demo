@@ -26,3 +26,18 @@
 | `/users/{id}`             | PUT    | Update specific user          |
 | `/users/{id}`             | PATCH  | Partially update specific user|
 | `/users/{id}`             | DELETE | Delete specific user          |
+
+## ▶️ Running Tests
+
+To run tests against the QA environment (for regression using ```@regression``` tag), create a file:
+
+```.env```
+
+Сontent:
+
+```
+USERNAME=emilys
+PASSWORD=emilyspass
+```
+## Running from cli
+```mvn clean test -Dkarate.env=qa -Dkarate.options="--tags @regression"```

@@ -39,5 +39,5 @@ To run tests against the QA environment (for regression using ```@regression``` 
 USERNAME=emilys
 PASSWORD=emilyspass
 ```
-## Running from cli
+### Running from cli
 ```mvn clean test -Dkarate.env=qa -Dkarate.options="--tags @regression"```

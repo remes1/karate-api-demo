@@ -27,6 +27,19 @@
 | `/users/{id}`             | PATCH  | Partially update specific user|
 | `/users/{id}`             | DELETE | Delete specific user          |
 
+## 🚀 Installation
+
+```
+# Clone the repository
+git clone https://github.com/remes1/karate-api-demo.git
+
+# Navigate to the project folder
+cd karate-api-demo
+
+# Install dependencies
+mvn clean install
+```
+
 ## ▶️ Running Tests
 
 To run tests against the QA environment (for regression using ```@regression``` tag), create a file:
